@@ -1,19 +1,21 @@
 import Header from './components/header/header';
 import './components/header/header.css'
-import background from './background.jpg';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <div className='HomePage'>
-        <div className='background'>
-          <div style={{backgroundImage: `url(${background})`, width: '100%', height:'500px'}} alt="background">
-            <h1>hey</h1>
-          </div> 
+      <div className="body">
+        <div className="background">
+          <div>
+            <p className='ChapterName'>SettledHead</p>
+            <p className='MemberNumber'>21 Grup Üyeleri</p>
+          </div>
         </div>
       </div>
     </div>
+
   );
 }
 
