@@ -74,6 +74,45 @@ function App() {
           Organizatör
           </a>  
         </div>
+
+        <div className='bodyText'>
+          <h1>Hakkında</h1>
+          <div className='generalBodyText'>
+            <h3 style={{textAlign: 'center'}}>Become a React.js developer</h3>
+            <p>Hey there!</p> 
+            <p>
+              Thank you for being here. This is where we share our journey of becoming react.js developers. We meet everyweek, code, learn, discuss together. 
+            </p>
+
+            <p>
+              What does being a react developer cover really? Here are some titles of what you'll see us working  with the most: 
+            </p>
+
+            <ul>
+              <li>"JSX"</li>
+              <li>"Next.js framework"</li>
+              <li>"Git - GitHub"</li>
+              <li>"Clean Coding "</li>
+              <li>"CSS"</li>
+              <li>"Web design (yeah, since we are working on front-end, we will get into design itself. Color theory is our friend!)
+                  A little SEO knowledge (For example, what component to use where and why?)
+                  Different libraries and extensions"</li>
+             </ul>
+             <p><br></br></p>
+             <p>After each session</p>
+             <ul>
+              <li>"The script will be uploaded to our GitHub repository after each session."</li>
+              <li>"A new meetup for the upcoming week will be created and shared for you to join."</li>
+              <li>"To recieve notifications, don't forget to become a member."</li>
+             </ul>
+             <p><br></br></p>
+             <p>Stay safe and don't forget to join our next session!</p>
+             <p><br></br></p>
+             <p>Discord name: Sol-is-here</p>
+          </div>
+          
+
+        </div>
       </div>
     </div>
 
