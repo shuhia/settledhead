@@ -5,11 +5,54 @@
 
 .background{
     width: 100%;
-    height: 370px;
+    height: 360px;
     display: flex;
     justify-content: baseline;
     align-items: center;
     padding: 0 5%;
-    background-image: url(./background.jpg);
-    background-size: cover;
+    background-image: url(./images/backgroundimage.jpg);
+    background-size: cover; 
+}
+
+.chapterName{
+    font-family: 'Pragati Narrow', sans-serif;
+    color: #10162F;
+    font-size: 53px;
+    font-weight: 600;
+    height: 60px;
+}
+
+.memberNumber{
+    display: flex;
+    justify-self: center;
+    font-size: 17px;
+    color: #10162F;
+    font-weight: 600;
+    margin: 15px 0px 20px;
+    height: 30px;
+
+}
+
+.miniMenu {
+    width:100%;
+    height: 81px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.miniMenu a {
+    font-family: 'Azeret Mono', monospace;
+    padding-top: 17px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+    letter-spacing: 1px;
+    word-spacing: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+
+
 }

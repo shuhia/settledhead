@@ -1,12 +1,12 @@
 import react from "react";
-import logo from '../../logo.svg';
-import profile from '../../profile.png';
+import logo from '../../images/logo.svg';
+import profile from '../../images/profile.png';
 
 const Header = () => {
     return(
         <header className="App-header">
             <a className='logo' href="https://www.codecademy.com/learn">
-                <img src={logo} alt="logo" width={180} height={41.25}/> 
+                <img src={logo} alt="logo" width={156.98} height={33.59}/> 
             </a>
             <div className='menu'>
                 <a 
