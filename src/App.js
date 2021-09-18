@@ -48,7 +48,9 @@ function App() {
           </div>
         </div>
         <div className='button' style={{display: 'flex', justifyContent: 'center', alignContent: 'center', padding: '10px 0', backgroundColor: '#F6F5FA'}}>
-          <button style={{ fontFamily: "'Azeret Mono', monospace", width:'auto', height: '43px', padding: '0px 20px', fontSize: '15px', letterSpacing: '1px', fontWeight: 600, color: 'white', backgroundColor: '#3A10E5', borderWidth: "0px"}}>Bize Katılın</button>
+          <a href=''>
+            <button style={{ fontFamily: "'Azeret Mono', monospace", width:'auto', height: '43px', padding: '0px 20px', fontSize: '15px', letterSpacing: '1px', fontWeight: 600, color: 'white', backgroundColor: '#3A10E5', borderWidth: "0px"}}>Bize Katılın</button>
+          </a>
         </div>
         <div className='miniMenu'>
           <a
@@ -89,21 +91,21 @@ function App() {
             </p>
 
             <ul>
-              <li>"JSX"</li>
-              <li>"Next.js framework"</li>
-              <li>"Git - GitHub"</li>
-              <li>"Clean Coding "</li>
+              <li>JSX</li>
+              <li>Next.js framework</li>
+              <li>Git - GitHub</li>
+              <li>Clean Coding</li>
               <li>"CSS"</li>
-              <li>"Web design (yeah, since we are working on front-end, we will get into design itself. Color theory is our friend!)
+              <li>Web design (yeah, since we are working on front-end, we will get into design itself. Color theory is our friend!)
                   A little SEO knowledge (For example, what component to use where and why?)
-                  Different libraries and extensions"</li>
+                  Different libraries and extensions</li>
              </ul>
              <p><br></br></p>
              <p>After each session</p>
              <ul>
-              <li>"The script will be uploaded to our GitHub repository after each session."</li>
-              <li>"A new meetup for the upcoming week will be created and shared for you to join."</li>
-              <li>"To recieve notifications, don't forget to become a member."</li>
+              <li>The script will be uploaded to our GitHub repository after each session.</li>
+              <li>A new meetup for the upcoming week will be created and shared for you to join.</li>
+              <li>To recieve notifications, don't forget to become a member.</li>
              </ul>
              <p><br></br></p>
              <p>Stay safe and don't forget to join our next session!</p>
