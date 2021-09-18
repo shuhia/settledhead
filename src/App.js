@@ -1,11 +1,12 @@
 import Header from './components/header/header';
-import './components/header/header.css'
-import './App.css'
-import linkedin from './images/linkedin.png'
-import instagram from './images/instagram.png'
-import redirect from './images/redirect.png'
-import message from './images/message.png'
-
+import './components/header/header.css';
+import './App.css';
+import linkedin from './images/linkedin.png';
+import instagram from './images/instagram.png';
+import redirect from './images/redirect.png';
+import message from './images/message.png';
+import Footer from './components/header/footer.js';
+import './components/header/footer.css'
 
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div style={{display: 'flex', justifyContent: 'center', alignContent: 'center', padding: '10px 0', backgroundColor: '#F6F5FA'}}>
+        <div className='button' style={{display: 'flex', justifyContent: 'center', alignContent: 'center', padding: '10px 0', backgroundColor: '#F6F5FA'}}>
           <button style={{ fontFamily: "'Azeret Mono', monospace", width:'auto', height: '43px', padding: '0px 20px', fontSize: '15px', letterSpacing: '1px', fontWeight: 600, color: 'white', backgroundColor: '#3A10E5', borderWidth: "0px"}}>Bize Katılın</button>
         </div>
         <div className='miniMenu'>
@@ -74,7 +75,6 @@ function App() {
           Organizatör
           </a>  
         </div>
-
         <div className='bodyText'>
           <h1>Hakkında</h1>
           <div className='generalBodyText'>
@@ -113,9 +113,11 @@ function App() {
           
 
         </div>
+        <div className='boxes'>
+        </div>
       </div>
-    </div>
-
+      <Footer/>
+      </div>
   );
 }
 
